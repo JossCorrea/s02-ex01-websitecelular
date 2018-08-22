@@ -7,7 +7,9 @@
 A marcação/identificação dos elementos é feita utilizando <TAGs>
 
 A estrutura sintática dos elementos no HTML é dada  por:
-<TAG(abertura)  atributo = "valor do atributo"> Conteúdo </TAG(fechamento)> 
+
+`<TAG(abertura)  atributo = "valor do atributo"> Conteúdo </TAG(fechamento)>`
+
 Algumas TAGs dispensam fechamento. Ex.: <br>, <meta>
 
 ## TAGs utilizadas no exercício (estão explicadas nos comentários do código):
