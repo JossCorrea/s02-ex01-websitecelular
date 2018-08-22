@@ -1,6 +1,6 @@
 # s02-ex01-websitecelular
 
-##Conceitos vistos na aula:
+## Conceitos vistos na aula:
 
 `HTML` = Hyper Text Markup Language
 
@@ -10,20 +10,23 @@ A estrutura sintática dos elementos no HTML é dada  por:
 <TAG(abertura)  atributo = "valor do atributo"> Conteúdo </TAG(fechamento)> 
 Algumas TAGs dispensam fechamento. Ex.: <br>, <meta>
 
-##TAGs utilizadas no exercício (estão explicadas nos comentários do código):
-* <!--Bla--> = Comentário em HTML
-* <!DOCTYPE html>
-* <html lang="pt-br">
-* <head>
-* <meta charset="UTF-8">
-* <title>
-* <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-* <link rel="stylesheet" href="css/style.css"> 
-* <body>
-* <div>
-* <h1>
-* <p>
-* <a>           
+## TAGs utilizadas no exercício (estão explicadas nos comentários do código):
+
+```
+<!--Bla--> = Comentário em HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"> 
+<body>
+<div>
+<h1>
+<p>
+<a>
+ ```
 
 ## Conceitos CSS
 
@@ -34,7 +37,7 @@ Display:
 
 
 
-##Etapas para realizar o exercício:
+## Etapas para realizar o exercício:
 
 1º Passo: Estrutura HTML-  Definir as divs que serão utilizadas ("fatiar") . A princípio será criada uma div para delimitar o texto e os links formando a coluna da esquerda
 
