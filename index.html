@@ -1,0 +1,25 @@
+
+<!DOCTYPE html> <!--Informando que estamos criando um documento no formato HTML5--> 
+
+<html lang="pt-br"> <!--html = Elemento principal(Raiz) de todo conteúdo do documento html / lang = Informa o idioma para o motor de busca (SEO)--> 
+    
+    <head> <!--head - Contém os metadados do arquivo, como configurações que não aparecem na tela do usuário--> 
+        <meta charset="UTF-8"> <!--Definição do padrão de codificação para representar caracteres (Unicode Transformation Format)--> 
+        <title>Exercício 01</title> <!--Título do documento que aparece na aba principal do navegador-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!--Esse é o link para a fonte Lato disponível no Google Fonts, se não for colocado a fonte não funciona e o site renderiza na próxima fonte listada no CSS-->
+        <link rel="stylesheet" href="css/style.css"> <!-- Link para a folha de estilo do CSS, no atributo rel você informa que se trata de uma folha de estilo (stylesheet) e no atributo href vc informa o caminho do arquivo onde se encontra essa folha de estilo-->
+    </head>
+    <!--Muito importante identar o código para torná-lo mais legível. No VCS vc identa clicando no TAB e reverte a identação clicando em SHIFT+TAB-->
+    <!--A identação permite enxergar a hierarquia das informações (quem é filho de quem)-->
+
+    <body> <!--Este é o corpo do documento, todos os elementos inseridos nesta TAG aparecem na tela do usuário-->
+        <div class="coluna">
+            <h1 class="coluna__titulo">Título</h1> <!--Este é um elemento título (heading). Eles seguem uma hierarquia do h1 até o h6. Importante buscar ter apenas um único h1 na página, por uma questão de acessibilidade-->
+            <p class="coluna__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus at quis sit reiciendis, commodi mollitia? Corrupti natus reiciendis, incidunt laborum adipisci reprehenderit officiis! Maxime delectus dignissimos animi, odio aut temporibus.</p> <!--Este é um elemento parágrafo. Se vc digitar lorem + enter o VSC vai inserir um texto padrão usado para representar parágrafos.-->
+            <a class="btn btn-roxo" href="#">Download</a> <!--A TAG a serve para delimitar um elemento do tipo link(anchor) ela geralmente é acompanhada de um atributo href="[nome do caminho]", que especifica o caminho para onde o link aponta.Importante lembrar que o [nome do caminho] corresponde ao valor do atributo. Entre a tag de abertura e a de fechamento você pode colocar o conteúdo, que correponde ao texto ou elemento que aparecerá para que o usuário clique e acesse o link. No exercício usaremos o href="#" para representar que o destino da TAG é vazio, ou seja, não vai para nenhum link.-->
+            <a class="btn btn-transparente" href="#">Read More</a>
+        </div>
+        <img src="img/imagem_celular.png" alt="Aparelho celular da Apple"> <!--Este elemento é uma imagem, geralmente ela é acompanhada de um atributo para definição da fonte/origem (src = source = fonte),cujo valor do atributo descreve o caminho onde a imagem a ser exibida está guardada. Este caminho pode ser uma URL ou pode ser o caminho de uma pasta que contém a imagem. Quando for uma pasta você informa o nome da pasta seguido do nome da imagem e sua extensão. Ouutro atributo importante para a acessibilidade é o alt, que consiste no texto que será lido para o deficiente visual quando o navegador passar pela imagem. Por isso, é fundamental buscar fazer uma descrição cuidadosa da imagem. Esse texto também é mostrado alternativamente quando o navegador não encontra o caminho da imagem.-->
+
+    </body>
+</html>

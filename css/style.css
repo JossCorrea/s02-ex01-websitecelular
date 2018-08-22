@@ -1,0 +1,51 @@
+/*GERAL*/
+body{ 
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin:90px auto;
+    width:90%;
+    background-color: rgba(179, 130, 186, 0.36);
+}
+
+/*COLUNA*/
+.coluna{
+    width: 49%;
+    height: 466px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.coluna__titulo{
+    font-size: 36px;
+    margin-top: 80px;
+}
+
+.coluna__texto{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BOTOES*/
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-left:20px;
+    padding: 10px;
+    border: 1px solid #5D1277;
+    border-radius: 3px;  
+}
+
+.btn-roxo{
+    background-color: #5D1277;
+    color: white;
+}
+
+.btn-transparente{
+    color:#5D1277;
+}
