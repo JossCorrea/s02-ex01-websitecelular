@@ -37,7 +37,17 @@ Display:
  - Inline: Ocupam apenas o espaço de seu tamanho, ficando alinhados aos outros elementos. Não permitem que suas dimensões sejam alteradas por width, por exemplo. (Ex.: a, img)
  - Inline-block: Ocupam o espaço do bloco alinhado a outros elementos (permitem que os elementos se ajustem às alterações  das dimensões aplicadas )
 
+`/*Bla*/ - Comentário`
 
+No CSS você sempre usa a seguinte estrutura:
+```
+     seletor{
+        propriedade:atributo;
+    {
+ ```
+ * Seletor = elemento ou conjunto de elementos(classes) que vc deseja alterar
+ * Propriedade = características que você deseja alterar
+ * Atributo = como você deseja que a propriedade se pareça 
 
 ## Etapas para realizar o exercício:
 
