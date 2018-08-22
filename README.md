@@ -1,6 +1,6 @@
 # s02-ex01-websitecelular
 
-## Conceitos vistos na aula:
+## Conceitos HTML:
 
 `HTML` = Hyper Text Markup Language
 
