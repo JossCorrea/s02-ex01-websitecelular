@@ -1,6 +1,8 @@
 # Website Celular
 
-Exercício realizado na Semana 02 do bootcamp Reprograma para praticar e fixar os conceitos de HTML e CSS aprendidos.
+## {Reprograma} Semana 02 - Exercício single page - Celular
+
+Exercício realizado para praticar e fixar os conceitos de HTML e CSS aprendidos.
 
 ## Objetivos do exercício:
 
